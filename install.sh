@@ -1,5 +1,5 @@
 apt install axel xz-utils -y &&
-axel -n8 -a -o /usr/bin/ffmpeg https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-linux64-gpl-shared.tar.xz &&
+axel -n8 -a -o /usr/bin/ffmpeg.tar.xz https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-linux64-gpl-shared.tar.xz &&
 tar -xf /usr/bin/ffmpeg.tar.xz &&
 rm -rf /usr/bin/ffmpeg.tar.xz &&
 mv /usr/bin/ffmpeg-master-latest-linux64-gpl-shared /usr/bin/ffmpeg &&
